@@ -9,7 +9,7 @@
   "properties": {
     "version": "1",
     "created": "2025-10-29T00:00:00Z",
-    "updated": "2026-03-30T13:39:16.822428Z",
+    "updated": "2026-03-30T14:33:05.002962Z",
     "type": "workflow",
     "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
     "description": "ML4Floods is an end-to-end ML pipeline for flood extent estimation using optical satellite data from Sentinel-2 or Landsat-8/9 acquisition",
@@ -25,25 +25,25 @@
         "concepts": [
           {
             "id": "EARTH SCIENCE",
-            "title": null,
+            "title": "EARTH SCIENCE",
             "description": "EARTH SCIENCE",
             "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
           },
           {
             "id": "TERRESTRIAL HYDROSPHERE",
-            "title": null,
+            "title": "TERRESTRIAL HYDROSPHERE",
             "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE",
             "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
           },
           {
             "id": "SURFACE WATER",
-            "title": null,
+            "title": "SURFACE WATER",
             "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
             "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
           },
           {
             "id": "SURFACE WATER FEATURES",
-            "title": null,
+            "title": "SURFACE WATER FEATURES",
             "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES",
             "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
           }
@@ -146,14 +146,14 @@
       "title": "User Manual",
       "length": null,
       "created": "2025-10-29T00:00:00Z",
-      "updated": "2026-03-30T13:39:16.822411Z",
+      "updated": "2026-03-30T14:33:05.002945Z",
       "href": "https://eoap.github.io/app-ml4floods/"
     },
     {
       "rel": "related",
       "type": "application/json",
       "hreflang": "en-US",
-      "title": "Project: geohazards-tep",
+      "title": "Project: Geohazards",
       "length": null,
       "created": null,
       "updated": null,
