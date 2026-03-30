@@ -35,14 +35,46 @@
     }
   ],
   "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords",
+      "concepts": [
+        {
+          "id": "EARTH SCIENCE",
+          "title": "EARTH SCIENCE",
+          "description": "EARTH SCIENCE",
+          "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
+        },
+        {
+          "id": "TERRESTRIAL HYDROSPHERE",
+          "title": "TERRESTRIAL HYDROSPHERE",
+          "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE",
+          "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
+        },
+        {
+          "id": "SURFACE WATER",
+          "title": "SURFACE WATER",
+          "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+          "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
+        },
+        {
+          "id": "SURFACE WATER FEATURES",
+          "title": "SURFACE WATER FEATURES",
+          "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES",
+          "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
+        }
+      ]
+    }
   ],
   "osc:project": "geohazards-tep",
   "osc:experiment": "ml4floods-v0-4-2-9r4pt",
   "osc:type": "product",
   "osc:status": "completed",
-  "created": "2026-03-30T15:52:43Z",
-  "updated": "2026-03-30T15:52:43Z",
+  "created": "2026-03-30T16:34:50Z",
+  "updated": "2026-03-30T16:34:50Z",
   "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
   "extent": {
     "spatial": {
