@@ -73,8 +73,8 @@
   "osc:experiment": "ml4floods-v0-4-2-9r4pt",
   "osc:type": "product",
   "osc:status": "completed",
-  "created": "2026-03-30T16:34:50Z",
-  "updated": "2026-03-30T16:34:50Z",
+  "created": "2026-03-30T16:44:08Z",
+  "updated": "2026-03-30T16:44:08Z",
   "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
   "extent": {
     "spatial": {
