@@ -1,15 +1,24 @@
 {
   "id": "ml4floods-v0-4-2-9r4pt",
   "type": "Feature",
-  "time": null,
-  "geometry": null,
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+      ]
+    ]
+  },
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
   ],
   "properties": {
     "version": "1",
     "created": "2025-10-29T00:00:00Z",
-    "updated": "2026-03-30T14:58:17.985263Z",
+    "updated": "2026-03-30T15:52:16.263224Z",
     "type": "experiment",
     "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
     "description": "ML4Floods is an end-to-end ML pipeline for flood extent estimation using optical satellite data from Sentinel-2 or Landsat-8/9 acquisition",
@@ -73,7 +82,6 @@
         "dir": "ltr"
       }
     ],
-    "externalIds": null,
     "formats": [
       {
         "name": "CWL",
@@ -86,78 +94,50 @@
         "name": "Brito, Fabrice",
         "position": "Project Manager",
         "organization": "Terradue",
-        "logo": null,
-        "phones": null,
         "emails": [
           {
-            "value": "fabrice.brito@terradue.com",
-            "roles": null
+            "value": "fabrice.brito@terradue.com"
           }
-        ],
-        "addresses": null,
-        "links": null,
-        "hoursOfService": null,
-        "contactInstructions": null,
-        "roles": null
+        ]
       },
       {
         "identifier": "https://orcid.org/0000-0001-7068-5533",
         "name": "Re, Alice",
         "position": "Researcher",
         "organization": "Terradue",
-        "logo": null,
-        "phones": null,
         "emails": [
           {
-            "value": "alice.re@terradue.com",
-            "roles": null
+            "value": "alice.re@terradue.com"
           }
-        ],
-        "addresses": null,
-        "links": null,
-        "hoursOfService": null,
-        "contactInstructions": null,
-        "roles": null
+        ]
       },
       {
         "identifier": "https://orcid.org/0009-0006-2063-618X",
         "name": "Tripodi, Simone",
         "position": "Project Leader",
         "organization": "Terradue",
-        "logo": null,
-        "phones": null,
         "emails": [
           {
-            "value": "simone.tripodi@terradue.com",
-            "roles": null
+            "value": "simone.tripodi@terradue.com"
           }
-        ],
-        "addresses": null,
-        "links": null,
-        "hoursOfService": null,
-        "contactInstructions": null,
-        "roles": null
+        ]
       }
     ],
     "license": "CC-BY-4.0",
-    "rights": null,
     "osc:project": "geohazards-tep",
     "osc:workflow": "ml4floods-v0-4-2",
     "osc-prov:generatedBy": "osc-client",
     "osc-prov:startedAtTime": "2026-03-24T08:41:47Z",
     "osc-prov:endedAtTime": "2026-03-24T09:12:26Z",
-    "osc-prov:generated": null,
     "osc-prov:describedByWorkflow": "ml4floods-v0-4-2"
   },
   "links": [
     {
       "rel": "help",
-      "type": null,
       "hreflang": "en",
       "title": "User Manual",
-      "length": null,
       "created": "2025-10-29T00:00:00Z",
-      "updated": "2026-03-30T14:58:17.985247Z",
+      "updated": "2026-03-30T15:52:16.263203Z",
       "href": "https://eoap.github.io/app-ml4floods/"
     },
     {
@@ -165,9 +145,6 @@
       "type": "application/json",
       "hreflang": "en-US",
       "title": "Project: Geohazards",
-      "length": null,
-      "created": null,
-      "updated": null,
       "href": "../../projects/geohazards-tep/collection.json"
     },
     {
@@ -175,9 +152,6 @@
       "type": "application/json",
       "hreflang": "en-US",
       "title": "Open Science Catalog",
-      "length": null,
-      "created": null,
-      "updated": null,
       "href": "../../catalog.json"
     },
     {
@@ -185,9 +159,6 @@
       "type": "application/json",
       "hreflang": "en-US",
       "title": "Experiments",
-      "length": null,
-      "created": null,
-      "updated": null,
       "href": "../catalog.json"
     },
     {
@@ -195,7 +166,6 @@
       "type": "application/yaml",
       "hreflang": "en-US",
       "title": "Input parameters",
-      "length": null,
       "created": "2026-03-24T08:41:47Z",
       "updated": "2026-03-24T08:41:47Z",
       "href": "./input.yaml"
@@ -205,7 +175,6 @@
       "type": "application/yaml",
       "hreflang": "en-US",
       "title": "Execution environment",
-      "length": null,
       "created": "2026-03-24T08:41:47Z",
       "updated": "2026-03-24T08:41:47Z",
       "href": "./environment.yaml"
@@ -215,11 +184,9 @@
       "type": "application/json",
       "hreflang": "en-US",
       "title": "Workflow: ml4floods-v0-4-2-9r4pt",
-      "length": null,
       "created": "2026-03-24T08:41:47Z",
       "updated": "2026-03-24T08:41:47Z",
       "href": "../../workflows/ml4floods-v0-4-2-9r4pt/record.json"
     }
-  ],
-  "linkTemplates": null
+  ]
 }
