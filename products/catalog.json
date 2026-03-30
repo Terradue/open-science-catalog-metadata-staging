@@ -881,7 +881,7 @@
     },
     {
       "rel": "child",
-      "href": "./ml4floods-v0-4-2-9r4pt/record.json",
+      "href": "./ml4floods-v0-4-2-9r4pt/collection.json",
       "type": "application/json",
       "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data"
     },
