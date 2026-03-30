@@ -1,13 +1,15 @@
 {
   "id": "ml4floods-v0-4-2",
   "type": "Feature",
+  "time": null,
+  "geometry": null,
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
   ],
   "properties": {
     "version": "1",
     "created": "2025-10-29T00:00:00Z",
-    "updated": "2026-03-27T11:04:31.928250Z",
+    "updated": "2026-03-30T13:39:16.822428Z",
     "type": "workflow",
     "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
     "description": "ML4Floods is an end-to-end ML pipeline for flood extent estimation using optical satellite data from Sentinel-2 or Landsat-8/9 acquisition",
@@ -23,21 +25,25 @@
         "concepts": [
           {
             "id": "EARTH SCIENCE",
+            "title": null,
             "description": "EARTH SCIENCE",
             "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
           },
           {
             "id": "TERRESTRIAL HYDROSPHERE",
+            "title": null,
             "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE",
             "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
           },
           {
             "id": "SURFACE WATER",
+            "title": null,
             "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
             "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
           },
           {
             "id": "SURFACE WATER FEATURES",
+            "title": null,
             "description": "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES",
             "url": "https://cmr.earthdata.nasa.gov/kms/concept/959f1861-a776-41b1-ba6b-d23c71d4d1eb"
           }
@@ -48,15 +54,19 @@
     "language": {
       "code": "en-US",
       "name": "English (United States)",
+      "alternate": null,
       "dir": "ltr"
     },
+    "languages": null,
     "resourceLanguages": [
       {
         "code": "en-US",
         "name": "English (United States)",
+        "alternate": null,
         "dir": "ltr"
       }
     ],
+    "externalIds": null,
     "formats": [
       {
         "name": "CWL",
@@ -69,36 +79,61 @@
         "name": "Brito, Fabrice",
         "position": "Project Manager",
         "organization": "Terradue",
+        "logo": null,
+        "phones": null,
         "emails": [
           {
-            "value": "fabrice.brito@terradue.com"
+            "value": "fabrice.brito@terradue.com",
+            "roles": null
           }
-        ]
+        ],
+        "addresses": null,
+        "links": null,
+        "hoursOfService": null,
+        "contactInstructions": null,
+        "roles": null
       },
       {
         "identifier": "https://orcid.org/0000-0001-7068-5533",
         "name": "Re, Alice",
         "position": "Researcher",
         "organization": "Terradue",
+        "logo": null,
+        "phones": null,
         "emails": [
           {
-            "value": "alice.re@terradue.com"
+            "value": "alice.re@terradue.com",
+            "roles": null
           }
-        ]
+        ],
+        "addresses": null,
+        "links": null,
+        "hoursOfService": null,
+        "contactInstructions": null,
+        "roles": null
       },
       {
         "identifier": "https://orcid.org/0009-0006-2063-618X",
         "name": "Tripodi, Simone",
         "position": "Project Leader",
         "organization": "Terradue",
+        "logo": null,
+        "phones": null,
         "emails": [
           {
-            "value": "simone.tripodi@terradue.com"
+            "value": "simone.tripodi@terradue.com",
+            "roles": null
           }
-        ]
+        ],
+        "addresses": null,
+        "links": null,
+        "hoursOfService": null,
+        "contactInstructions": null,
+        "roles": null
       }
     ],
-    "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "license": "CC-BY-4.0",
+    "rights": null,
     "osc:type": "workflow",
     "osc:project": "geohazards-tep",
     "osc:status": "completed"
@@ -106,10 +141,12 @@
   "links": [
     {
       "rel": "help",
+      "type": null,
       "hreflang": "en",
       "title": "User Manual",
+      "length": null,
       "created": "2025-10-29T00:00:00Z",
-      "updated": "2026-03-27T11:04:31.928229Z",
+      "updated": "2026-03-30T13:39:16.822411Z",
       "href": "https://eoap.github.io/app-ml4floods/"
     },
     {
@@ -117,6 +154,9 @@
       "type": "application/json",
       "hreflang": "en-US",
       "title": "Project: geohazards-tep",
+      "length": null,
+      "created": null,
+      "updated": null,
       "href": "../../projects/geohazards-tep/collection.json"
     },
     {
@@ -124,6 +164,9 @@
       "type": "application/json",
       "hreflang": "en-US",
       "title": "Open Science Catalog",
+      "length": null,
+      "created": null,
+      "updated": null,
       "href": "../../catalog.json"
     },
     {
@@ -131,6 +174,9 @@
       "type": "application/json",
       "hreflang": "en-US",
       "title": "Workflows",
+      "length": null,
+      "created": null,
+      "updated": null,
       "href": "../catalog.json"
     },
     {
@@ -138,6 +184,7 @@
       "type": "application/cwl",
       "hreflang": "en-US",
       "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
+      "length": null,
       "created": "2025-10-29T00:00:00Z",
       "updated": "2025-10-29T00:00:00Z",
       "href": "oci://ghcr.io/eoap/app-ml4floods/app-ml4floods:latest"
@@ -147,7 +194,11 @@
       "type": "text/html",
       "hreflang": "en-US",
       "title": "cwltool",
+      "length": null,
+      "created": null,
+      "updated": null,
       "href": "https://cwltool.readthedocs.io/en/latest/"
     }
-  ]
+  ],
+  "linkTemplates": null
 }
