@@ -18,7 +18,7 @@
   "properties": {
     "version": "1",
     "created": "2025-10-29T00:00:00Z",
-    "updated": "2026-03-30T16:43:43.542278Z",
+    "updated": "2026-03-30T16:49:52.559710Z",
     "type": "experiment",
     "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
     "description": "ML4Floods is an end-to-end ML pipeline for flood extent estimation using optical satellite data from Sentinel-2 or Landsat-8/9 acquisition",
@@ -137,7 +137,7 @@
       "hreflang": "en",
       "title": "User Manual",
       "created": "2025-10-29T00:00:00Z",
-      "updated": "2026-03-30T16:43:43.542257Z",
+      "updated": "2026-03-30T16:49:52.559686Z",
       "href": "https://eoap.github.io/app-ml4floods/"
     },
     {
@@ -183,7 +183,7 @@
       "rel": "related",
       "type": "application/json",
       "hreflang": "en-US",
-      "title": "Workflow: ml4floods-v0-4-2",
+      "title": "Workflow: ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
       "created": "2026-03-24T08:41:47Z",
       "updated": "2026-03-24T08:41:47Z",
       "href": "../../workflows/ml4floods-v0-4-2/record.json"
