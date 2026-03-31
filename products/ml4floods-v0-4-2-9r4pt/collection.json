@@ -28,6 +28,18 @@
       "title": "Products"
     },
     {
+      "rel": "related",
+      "href": "../../experiments/ml4floods-v0-4-2-9r4pt/record.json",
+      "type": "application/json",
+      "title": "Experiment: ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
       "rel": "output",
       "href": "./output.yaml",
       "type": "application/yaml",
@@ -52,8 +64,8 @@
       ]
     }
   ],
-  "created": "2026-03-31T11:52:03Z",
-  "updated": "2026-03-31T11:52:03Z",
+  "created": "2026-03-31T12:18:10Z",
+  "updated": "2026-03-31T12:18:10Z",
   "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
   "extent": {
     "spatial": {
