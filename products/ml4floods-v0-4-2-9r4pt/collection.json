@@ -40,6 +40,12 @@
       "title": "Theme: Land"
     },
     {
+      "rel": "via",
+      "href": "https://processing.geohazards-tep.eu/7465727261647565/jobs/ml4floods-v0-4-2-9r4pt/results",
+      "type": "application/json",
+      "title": "OGC API Processes - Job Results: ml4floods-v0-4-2-9r4pt"
+    },
+    {
       "rel": "output",
       "href": "./output.yaml",
       "type": "application/yaml",
@@ -64,8 +70,8 @@
       ]
     }
   ],
-  "created": "2026-03-31T12:18:10Z",
-  "updated": "2026-03-31T12:18:10Z",
+  "created": "2026-03-31T17:13:06Z",
+  "updated": "2026-03-31T17:13:06Z",
   "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
   "extent": {
     "spatial": {
