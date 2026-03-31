@@ -5,7 +5,7 @@
   "description": "ML4Floods is an end-to-end ML pipeline for flood extent estimation using optical satellite data from Sentinel-2 or Landsat-8/9 acquisition",
   "links": [
     {
-      "rel": "help",
+      "rel": "via",
       "href": "https://eoap.github.io/app-ml4floods/",
       "title": "User Manual"
     },
