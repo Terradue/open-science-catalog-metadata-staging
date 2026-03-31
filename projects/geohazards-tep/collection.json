@@ -53,6 +53,18 @@
   ],
   "contacts": [
     {
+      "name": "Bally, Philippe",
+      "roles": [
+        "technical_officer"
+      ],
+      "organization": "ESA",
+      "emails": [
+        {
+          "value": "Philippe.Bally@esa.int"
+        }
+      ]
+    },
+    {
       "name": "Brito, Fabrice",
       "roles": [
         "Project Manager"
